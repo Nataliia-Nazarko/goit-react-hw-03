@@ -1,0 +1,17 @@
+.searchBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.searchInput {
+  border: 2px solid black;
+  border-radius: 2.5px;
+}
+
+.searchInput:hover {
+  border-color: #646cff;
+}
