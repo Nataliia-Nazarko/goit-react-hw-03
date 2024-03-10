@@ -1,11 +1,11 @@
 .contactCard {
   display: flex;
   justify-content: space-between;
+  min-width: 270px;
   align-items: center;
   padding: 10px;
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 5px;
-  margin-bottom: 15px;
 }
 
 .contactDetails {

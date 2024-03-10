@@ -1,10 +1,12 @@
 .searchBox {
+  max-width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   text-align: left;
   font-weight: 600;
   margin-bottom: 25px;
+  position: relative;
 }
 
 .searchInput {
@@ -13,5 +15,11 @@
 }
 
 .searchInput:hover {
-  border-color: #646cff;
+  border: 2px solid #646cff;
+}
+
+.icon {
+  position: absolute;
+  left: 270px;
+  top: 35px;
 }
